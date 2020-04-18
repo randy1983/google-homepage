@@ -1,39 +1,36 @@
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Google</title>
    <style>
-      
-      h1 {
+      .img-container {
          text-align: center;
          padding-top: 100px;
       }
-
+      .gsearch {
+         text-align: center;
+         padding-top: 10px;
+      }
    </style>
-   <body>
-
-   <h1>
-
-   <a href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-   
-   </h1>
-
-   <form>
-      <div id="search"><input name="google"</div>
-      <button type="submit"></button>
-   </form>
-   
-   
-
-
-
-
-   </body>
+</head>
+<body>
+      <div class="img-container">
+      <a href="https://www.google.com">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+      
+      </a>
+      </div>
+      
+      <form class="gsearch">
+      <label for="gsearch"></label>
+      <input type="text" id="gsearch" name="gsearch" method="GET" action="http://www.google.com/search">
+      <input type="submit" value="go!">
+      </form>
+      
 
 
 
-
-
-
-
-
+</body>
 </html>
