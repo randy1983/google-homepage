@@ -13,9 +13,35 @@
          text-align: center;
          padding-top: 10px;
       }
+
+      li {
+         float: left;
+      }
+      a {
+         display: block;
+         padding: 8px;
+      }
+      li a:hover {
+         text-decoration: underline;
+      }
+      ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: rgba(51, 51, 51, 0);
+      }
    </style>
 </head>
 <body>
+      
+   <ul class="navbartop">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+   </ul>
+   
       <div class="img-container">
       <a href="https://www.google.com">
       <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
@@ -26,7 +52,7 @@
       <form class="gsearch">
       <label for="gsearch"></label>
       <input type="text" id="gsearch" name="gsearch" method="GET" action="http://www.google.com/search">
-      <input type="submit" value="go!">
+      <input type="submit" value="Google">
       </form>
       
 
